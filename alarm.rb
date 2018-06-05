@@ -6,10 +6,13 @@
 
 time.now.hour #ruby specific keyword for time
 
-puts "what time is it?"
-time_now = gets.chomp
+
+
 def alarm(time.now.hour)
   if time.now.hour >= 6am && time.now.hour <= 11am
   "Good Morning America!!"
-elsif time.now.hour >= 11am && time.now.hour <= 3pm
-elsif time.now.hour >= 3pm && time.now.hour <= 10pm
+  elsif time.now.hour >= 11am && time.now.hour <= 3pm
+  elsif time.now.hour >= 3pm && time.now.hour <= 10pm
+end
+
+alarm(11am) 

@@ -16,5 +16,3 @@ time.now.hour #ruby specific keyword for time
   puts "Good Night!!"
 end
 
-
-alarm(12) 

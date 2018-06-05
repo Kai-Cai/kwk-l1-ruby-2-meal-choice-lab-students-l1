@@ -8,7 +8,6 @@ time.now.hour #ruby specific keyword for time
 
 
 
-def alarm(time)
   if Time.now.hour >= 6 && Time.now.hour <= 11
   puts "Good Morning America!!"
   elsif Time.now.hour >= 11 && Time.now.hour <= 15
@@ -16,5 +15,6 @@ def alarm(time)
   elsif Time.now.hour >= 15 && Time.now.hour <= 22
   puts "Good Night!!"
 end
+
 
 alarm(12) 

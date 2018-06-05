@@ -8,7 +8,7 @@ time.now.hour #ruby specific keyword for time
 
 
 
-def alarm(time.now.hour)
+def alarm(time)
   if time.now.hour >= 6am && time.now.hour <= 11am
   puts "Good Morning America!!"
   elsif time.now.hour >= 11am && time.now.hour <= 3pm

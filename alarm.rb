@@ -4,7 +4,7 @@
 # otherwise, say good night
 
 
-time.now.hour #ruby specific keyword for time
+#time.now.hour #ruby specific keyword for time
 
 
 

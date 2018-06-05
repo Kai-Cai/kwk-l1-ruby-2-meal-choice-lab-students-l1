@@ -9,7 +9,7 @@ time.now.hour #ruby specific keyword for time
 
 
   if Time.now.hour >= 6 && Time.now.hour <= 11
-  puts "Good Morning America!!"
+    puts "Good Morning America!!"
   elsif Time.now.hour >= 11 && Time.now.hour <= 15
   puts "Good Evening!!"
   elsif Time.now.hour >= 15 && Time.now.hour <= 22

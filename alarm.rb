@@ -17,4 +17,4 @@ def alarm(time)
   puts "Good Night!!"
 end
 
-alarm(11) 
+alarm(12) 
